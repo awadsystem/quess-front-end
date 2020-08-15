@@ -1,13 +1,39 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@font-face{
+  font-family: 'LoewNextArabic-Light';
+  src: url('./fonts/Loew\ Next\ Arabic\ Light.otf') format('otf');
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+@font-face{
+  font-family: 'LoewNextArabic-Medium';
+  src: url('./fonts/Loew\ Next\ Arabic\ Medium.otf') format('otf');
+}
+
+@font-face{
+  font-family: 'LoewNextArabic-Regular';
+  src: url('./fonts/Loew\ Next\ Arabic.otf') format('otf');
+}
+
+@font-face{
+  font-family: 'LoewNextArabic-Black';
+  src: url('./fonts/Loew\ Next\ Arabic\ Black.otf') format('otf');
+}
+
+@font-face{
+  font-family: 'LoewNextArabic-Bold';
+  src: url('./fonts/Loew\ Next\ Arabic\ Bold.otf') format('otf');
+}
+
+@font-face{
+  font-family: 'LoewNextArabic-ExtraBold';
+  src: url('./fonts/Loew\ Next\ Arabic\ ExtraBold.otf') format('otf');
+}
+
+@font-face{
+  font-family: 'LoewNextArabic-Heavy';
+  src: url('./fonts/Loew\ Next\ Arabic\ Heavy.otf') format('otf');
+}
+
+@font-face{
+  font-family: 'LoewNextArabic-Thin';
+  src: url('./fonts/Loew\ Next\ Arabic\ Thin.otf') format('otf');
 }

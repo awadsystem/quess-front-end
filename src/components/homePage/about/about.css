@@ -1,0 +1,115 @@
+#about{
+    background-color: #153064;
+    width: 100%;
+    position: relative;
+    min-height: 400px;
+}
+
+.about-inner{
+    padding: 50px 65px;
+    display: flex;
+}
+
+.about-bio-holder{
+    border-radius: 5px;
+    box-shadow: 0 5px 86px 0 rgba(0, 0, 0, 0.05);
+    background-color: #2a4986;
+    padding: 30px;
+    height: 300px;
+}
+
+.about-bio{
+    height: 250px;
+    overflow: hidden;
+    position: relative;
+    overflow-y: scroll;
+}
+
+.about-bio p{
+    font-family: 'LoewNextArabic-Regular';
+  font-size: 20px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.7;
+  letter-spacing: normal;
+  text-align: right;
+  color: #ffffff;
+  padding-right: 20px;
+}
+
+.video-row{
+    width: 63%;
+    padding-left: 15px;
+    padding-right: 15px;
+    display: inline-block;
+}
+
+.about-row{
+    width: 37%;
+    display: inline-block;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.about-row h3{
+    font-family: 'LoewNextArabic-ExtraBold';
+  font-size: 21px;
+  font-weight: 800;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.38;
+  letter-spacing: normal;
+  text-align: right;
+  color: #ffffff;
+  margin-bottom: 0;
+  padding-bottom: 0;
+  margin-top: 30px;
+  margin-bottom: 24px;
+}
+
+.chip-ul{
+    list-style: none;
+    padding-left: 0;
+    text-align: right;
+}
+
+.chip-li{
+    border-radius: 5px;
+    background-color: #223c6e;
+    padding: 9px 11px;
+    font-family: 'LoewNextArabic-Regular';
+    font-size: 14px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 0.86;
+    letter-spacing: normal;
+    text-align: right;
+    color: #a7b5d2;
+    display: inline-block;
+    cursor: pointer;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+
+.about-bio::-webkit-scrollbar-track
+{
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+    border-radius: 10px;
+    background-color: #24417b;
+}
+
+.about-bio::-webkit-scrollbar
+{
+    border-radius: 25px;
+    width: 5px;
+    background-color: #24417b;
+}
+
+.about-bio::-webkit-scrollbar-thumb
+{
+    border-radius: 10px;
+    border-color: #24417b;
+    background-color: #375798;
+}

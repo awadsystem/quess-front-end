@@ -1,0 +1,262 @@
+#store{
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    background-color: #153064;
+}
+
+.store-inner{
+    padding: 50px 65px;
+    display: flex;
+}
+
+.store-item{
+    position: relative;
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    cursor: pointer;
+    margin-bottom: 40px;
+}
+
+.store-item-image{
+    height: 130px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 5px;
+    margin: 0 auto;
+    position: relative;
+    overflow: hidden;
+}
+
+.store-item-gradient{
+    height: 130px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 5px;
+    margin: 0 auto;
+    object-fit: contain;
+  position: relative;
+  overflow: hidden;
+  background-color: #1d428b;
+}
+
+.store-item-type-info{
+    
+    position: absolute;
+    bottom: 16px;
+    right: 13px;
+    z-index: 9999;
+}
+
+.store-item-span{
+    font-family: 'LoewNextArabic-Bold';
+    font-size: 19px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    letter-spacing: normal;
+    text-align: right;
+    color: #8191b2;
+    margin-right: 8px;
+    position: relative;
+    top: 5px;
+}
+
+.store-item-image{
+}
+
+.store-item-image::after{
+    content: "";
+    background-image: url(https://assetshost.fra1.cdn.digitaloceanspaces.com/Path%20989.svg);
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: 150px;
+}
+
+.store-item-icon{
+    float: none!important;
+}
+
+.store-item-title{
+    margin-top: 17px;
+    font-family: 'LoewNextArabic-Bold';
+    font-size: 14px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.43;
+    letter-spacing: normal;
+    text-align: right;
+    color: #ffffff;
+}
+
+.store-item p{
+    font-family: 'LoewNextArabic-Medium';
+    font-size: 10px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.54;
+    letter-spacing: normal;
+    text-align: right;
+    color: #8191b2;
+    text-align: right;
+    display: inline-block;
+    float: right;
+}
+
+.store-item p span{
+    font-family: 'LoewNextArabic-Bold';
+  font-size: 15px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.05;
+  letter-spacing: normal;
+  text-align: right;
+  color: #8191b2
+}
+
+.store-item img{
+    float: left
+}
+
+.register-number{
+    font-family: 'LoewNextArabic-Medium';
+    font-size: 10px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.54;
+    letter-spacing: normal;
+    color: #8191b2;
+    float: left;
+    margin-left: 5px;
+    top: 6px
+}
+
+.registration-section .register-number{
+    font-family: 'LoewNextArabic-Medium';
+    font-size: 10px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.54;
+    letter-spacing: normal;
+    color: #8191b2;
+    margin-left: 5px;
+    top: 6px
+}
+
+.registration-section img{
+    float: left;
+}
+
+.registration-section{
+    position: absolute;
+    bottom: 20px;
+    left: 0;
+}
+
+.active-store-item{
+    height: 500px;
+    width: 100%;
+    padding-right: 46px;
+    padding-left: 46px;
+    position: relative;
+    overflow: hidden;
+    border-radius: 5px;
+    background-color: #1d428b;
+    padding-top: 45px;
+}
+
+.active-store-item::after{
+    content: "";
+    background-image: url(https://assetshost.fra1.cdn.digitaloceanspaces.com/blank_background.svg);
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+}
+
+.buy-sell-icon{
+    display: inline-block;
+    margin-right: 15px;
+    background-image: url(https://assetshost.fra1.cdn.digitaloceanspaces.com/Path%201057.svg);
+    background-size: cover;
+    width: 50px;
+    height: 43px;
+    cursor: pointer;
+}
+
+.buy-sell-icon img{
+    text-align: center;
+    margin: 0 auto;
+    position: relative;
+    top: 18%;
+    left: 15%;
+    cursor: pointer;
+}
+
+.buy-sell-text{
+    display: inline-block;
+    font-family: 'LoewNextArabic-Bold';
+    font-size: 16px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.56;
+    letter-spacing: normal;
+    text-align: right;
+    color: #ffffff;
+    margin-bottom: 0;
+    position: relative;
+    top: 5px;
+}
+
+.active-bottom-div{
+    position: absolute;
+    bottom: 30px;
+    left: 0;
+    width: 100%;
+    z-index: 999999;
+    padding-right: 45px;
+    padding-left: 45px;
+}
+
+.active-store-item h3{
+    font-family: 'LoewNextArabic-Medium';
+  font-size: 29px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.55;
+  letter-spacing: normal;
+  text-align: right;
+  color: #ffffff;
+}
+
+.right-active-section p{
+    font-family: 'LoewNextArabic-Medium';
+    font-size: 16px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.56;
+    letter-spacing: normal;
+    text-align: right;
+    color: #8191b2
+}
+
+.right-active-section p span{
+    font-family: 'LoewNextArabic-Bold';
+    font-size: 24px;
+}
+
+.registeration-section{
+    position: absolute;
+    bottom: 20px;
+}

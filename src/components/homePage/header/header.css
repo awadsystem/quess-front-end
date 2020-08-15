@@ -1,0 +1,122 @@
+.header-wrapper{
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+}
+
+.header-inner{
+   /* width: 1300px;*/
+    margin: 0 auto;
+    display: block;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    padding: 30px 65px;
+    background-color: white;
+}
+
+/*.header-left-section{
+    width: 50%;
+    display: block;
+}
+
+.header-right-section{
+    width: 50%;
+    display: block;
+}*/
+
+.header-left-section .list-para{
+    font-family: 'LoewNextArabic-Medium';
+  font-size: 20px;
+  font-weight: 800;
+  font-stretch: normal;
+  font-style: normal;
+  letter-spacing: normal;
+  text-align: right;
+  padding: 0;
+    margin: 0;
+    text-align: left;
+    color: #1d428b;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+.cursor-pointer{
+    cursor: pointer;
+}
+
+.header-left-section p:nth-child(2){
+    margin-left: 5px;
+}
+
+.header-arrow-icon{
+    position: relative;
+    left: 20px;
+    top: -2px;
+}
+
+.list-para{
+    display: inline-block;
+}
+
+.profile-section{
+    display: inline-block;
+    margin-right: 51px;
+    position: relative;
+    top: 10px;
+}
+
+.profile-section p{
+    display: inline-block;
+    margin-right: 12px;
+    font-family: 'LoewNextArabic-Bold';
+  font-size: 16px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  letter-spacing: normal;
+  color: #1c3668;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+.profile-username{
+    font-family: 'LoewNextArabic-ExtraBold';
+    font-size: 19px;
+  font-weight: 800;
+  font-stretch: normal;
+  font-style: normal;
+  letter-spacing: normal;
+}
+
+.profile-icon{
+    display: inline-block;
+    background-image: url(https://assetshost.fra1.cdn.digitaloceanspaces.com/Ellipse%201.svg);
+    width: 55px;
+    height: 45px;
+    background-size: cover;
+    background-position: center;
+    margin: 0 auto;
+    text-align: center;
+    position: relative;
+    top: -10px;
+}
+
+.profile-icon img{
+    width: 27px;
+    height: 27px;
+    top: 9px;
+    position: relative;
+}
+
+.notification-bell{
+    display: inline-block;
+    position: relative;
+    top: 5px;
+}
+
+.header-wating-list{
+    margin-bottom: 0;
+    position: relative;
+    top: 10px;
+}

@@ -1,0 +1,188 @@
+#courses{
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    background-color: #153064;
+}
+
+.courses-inner{
+    padding: 50px 65px;
+    display: flex;
+}
+
+
+.course-item{
+    position: relative;
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    cursor: pointer;
+    margin-bottom: 40px;
+}
+
+.course-inner-info{
+    height: 200px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 5px;
+    margin: 0 auto;
+    position: relative;
+    overflow: hidden;
+}
+
+.course-inner-info .info-holder{
+    position: absolute;
+    bottom: 18px;
+    right: 14px;
+    z-index: 9999;
+}
+
+.course-inner-info::after{
+    content: "";
+    background-image: url(https://assetshost.fra1.cdn.digitaloceanspaces.com/Path%20989.svg);
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    right: 0;
+}
+
+.course-inner-info img{
+    float: left;
+    position: relative;
+    right: 8px;
+    top: 10px;
+}
+
+.course-inner-info span{
+    font-family: 'LoewNextArabic-Regular';
+  font-size: 14px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.43;
+  letter-spacing: normal;
+  text-align: right;
+  color: #ffffff;
+}
+
+.course-item p{
+
+}
+
+.course-item h4{
+    font-family: 'LoewNextArabic-Bold';
+    font-size: 15px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.59;
+    letter-spacing: normal;
+    text-align: right;
+    color: #ffffff;
+    margin-top: 21px;
+    margin-bottom: 0;
+    width: 82%;
+    text-align: right;
+    float: right;
+}
+
+.course-data-bottom{
+    position: relative;
+    overflow: hidden;
+}
+
+.course-item p{
+    font-family: 'LoewNextArabic-Medium';
+  font-size: 10px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.54;
+  letter-spacing: normal;
+  text-align: right;
+  color: #8191b2;
+  position: absolute;
+  left: 0;
+  bottom: -15px;
+}
+
+.course-item p span{
+    font-family: 'LoewNextArabic-Bold';
+  font-size: 15px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.05;
+  letter-spacing: normal;
+  text-align: right;
+  color: #8191b2;
+  float: right;
+  margin-left: 3px;
+}
+
+.single-course-section .video-row{
+    width: 63%;
+    padding-left: 15px;
+    padding-right: 15px;
+    display: inline-block;
+}
+
+.single-course-section .about-row{
+    width: 37%;
+    display: inline-block;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+
+.about-course{
+    border-radius: 5px;
+    box-shadow: 0 5px 86px 0 rgba(0, 0, 0, 0.05);
+    background-color: #2a4986;
+    padding: 30px;
+    margin-bottom: 36px;
+}
+
+.about-course h3{
+    font-family: "LoewNextArabic-ExtraBold";
+    font-size: 29px;
+    font-weight: 800;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1;
+    letter-spacing: normal;
+    text-align: right;
+    color: #ffffff;
+    margin-bottom: 0;
+}
+
+.about-course p{
+    font-family: "LoewNextArabic-Regular";
+    font-size: 13px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.7;
+    letter-spacing: normal;
+    text-align: right;
+    color: #ffffff;
+    margin-top: 24px;
+}
+
+.sub-course-holder{
+    margin-top: 50px;
+}
+
+.sub-course-holder h3{
+    font-family: "LoewNextArabic-ExtraBold";
+    font-size: 25px;
+    font-weight: 800;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.16;
+    letter-spacing: normal;
+    text-align: right;
+    color: #a7b5d2;
+    margin-bottom: 38px;
+}

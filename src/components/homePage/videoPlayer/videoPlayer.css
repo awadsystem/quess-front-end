@@ -1,0 +1,87 @@
+.video-player-holder{
+    overflow: hidden;
+    width: 100%;
+    position: relative;
+    border-radius: 5px;
+}
+
+.video-player-background{
+    height: 500px;
+    width: 100%;
+    background-size: cover;
+    position: relative;
+    padding-right: 46px;
+    padding-left: 46px;
+    background-repeat: no-repeat;
+}
+
+.video-player-items{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    right: 0;
+    z-index: 99999999;
+}
+
+.video-player-text{
+    font-family: 'LoewNextArabic-Medium';
+    font-size: 30px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.55;
+    letter-spacing: normal;
+    text-align: right;
+    color: #ffffff;
+    padding-right: 46px;
+    z-index: 9999;
+}
+
+.video-player-loop{
+    padding-left: 45px;
+    padding-right: 45px;
+    padding-bottom: 30px;
+}
+
+.video-player-background:after{
+    content: "";
+    background-image: url(https://assetshost.fra1.cdn.digitaloceanspaces.com/Path%20989.svg);
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+}
+
+.time-line-bar{
+    width: 70%;
+    height: 2px;
+    background: white;
+    display: inline-block;
+    margin-left: 15px;
+    margin-right: 15px;
+    position: relative;
+    top: -5px;
+}
+
+.video-player-loop img{
+    width: 16px;
+    height: 16px;
+    cursor: pointer;
+}
+
+.video-player-loop span{
+    font-family: 'LoewNextArabic-Bold';
+  font-size: 16px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.19;
+  letter-spacing: normal;
+  text-align: right;
+  color: #ffffff;
+  margin-right: 15px;
+}
+
+.image-loop{
+    margin-right: 15px;
+}

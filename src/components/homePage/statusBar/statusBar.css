@@ -1,0 +1,115 @@
+.status-bar-inner{
+    padding: 20px 65px;
+    background-image: linear-gradient(80deg, #254176 11%, #1c3668 95%);
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+}
+
+.status-bar-inner .left-section{
+    
+}
+
+.icon-holder{
+    display: inline-block;
+    position: relative;
+    height: 0;
+    margin-right: 25px;
+}
+
+.list-item-arrow{
+    margin-left: 6px;
+}
+
+.icon-information{
+    display: inline-block;
+}
+
+.icon-information p:first-child{
+    margin-bottom: 0;
+    font-family: 'LoewNextArabic-Bold';
+    font-size: 16px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    letter-spacing: normal;
+    text-align: right;
+    color: #ffffff;
+}
+
+.icon-information p:last-child{
+    margin-bottom: 0;
+    font-family: 'LoewNextArabic-Medium';
+    font-size: 14px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    letter-spacing: normal;
+    text-align: right;
+    color: #a7b5d2;
+}
+
+.icon-image{
+    display: inline-block;
+}
+
+.icon-image-circle{
+    background-size: cover;
+    background-position: center;
+    width: 70px;
+    height: 70px;
+    position: relative;
+    top: -25px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.icon-image-circle img{
+    position: relative;
+    top: 25%;
+}
+
+.menu-ul{
+    list-style: none;    
+    margin-left: 0;
+    padding-left: 0;
+    margin-right: 0;
+    padding-right: 0;
+    text-align: right;
+    margin-top: 0.5rem;
+}
+
+.menu-ul li{
+    display: inline-block;
+    margin-right: 20px;
+    cursor: pointer;
+    font-family: 'LoewNextArabic-Medium';
+    font-size: 15px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  letter-spacing: normal;
+  text-align: right;
+  color: #8191b2;
+  transition: all 0.1s ease-in-out;
+  position: relative;
+}
+
+.menu-ul li:first-child{
+    margin-right: 0;
+}
+
+.menu-ul li.active{
+    color: #ffffff;
+    font-family: 'LoewNextArabic-Medium';
+}
+
+.menu-ul .active:after{
+    content: '';
+    width: 15px;
+    bottom: -5px;
+    height: 1px;
+    border: 1px solid white;
+    position: absolute;
+    right: 0;
+}
