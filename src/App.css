@@ -8,11 +8,26 @@ html{
 
 .home-page-wrapper{
   width: 100%;
-  overflow: hidden;
-  background-color: #153164;
     min-height: 850px;
+    overflow-x: hidden;
 }
 
 .home-page-inner{
   
+}
+
+.background-holder{
+  width: 100%;
+  position: relative;
+  background-color: #153164;
+  min-height: 500px;
+  overflow-x: hidden;
+}
+
+.shadow-radius{
+  opacity: 0.97;
+  box-shadow: -32px 60px 33px 0 rgba(29, 66, 139, 0.51);
+  position: relative;
+  z-index: 999999999;
+  border: none;
 }

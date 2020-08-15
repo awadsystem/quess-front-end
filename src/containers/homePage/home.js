@@ -1,4 +1,5 @@
 import React from 'react'
+import './home.css'
 
 // import page components
 import Header from '../../components/homePage/header/header'
@@ -10,6 +11,7 @@ import About from '../../components/homePage/about/about'
 import Store from '../../components/homePage/store/store'
 import BroadCast from '../../components/homePage/broadcast/broadcast'
 import Courses from '../../components/homePage/courses/courses'
+import Sidebar from '../../components/sidebar/sidebar'
 
 // redux import
 import { connect } from 'react-redux'
@@ -20,7 +22,8 @@ class HomePage extends React.Component {
     constructor(props) {
         super(props)
         this.state = {
-            active: 0
+            active: 0,
+            openNav: false
         }
 
         // bind functions
@@ -63,7 +66,7 @@ class HomePage extends React.Component {
     render() {
 
         let activeComponent
-        let { active } = this.state
+        let { active, openNav } = this.state
         switch (active) {
             case 0:
                 activeComponent = <div className="fade-in"><About /></div>
@@ -81,18 +84,38 @@ class HomePage extends React.Component {
 
         return (
             <div className="home-page-wrapper">
-                <Header />
-                <Bio />
-                <StatusBar
-                    active={this.state.active}
-                    changeState={this.changeState}
-                    setCourse={this.props.setCourse}
-                    course={this.props.course}
-                />
 
-                <div id="componentHolder" className="fade-in">
-                    {activeComponent}
+
+
+                <div className={`wrapper ${openNav ? 'open-nav' : ''}`}>
+                    <Header
+                        openNav={openNav}
+                        changeState={this.changeState}
+                    />
+
+                    <div className={`${openNav ? 'shadow-radius' : ''} main-components-holder`}>
+                        <Bio openNav={openNav} />
+                        <StatusBar
+                            active={this.state.active}
+                            changeState={this.changeState}
+                            setCourse={this.props.setCourse}
+                            course={this.props.course}
+                        />
+
+                        <div className="background-holder">
+                            <div id="componentHolder" className="fade-in">
+                                {activeComponent}
+                            </div>
+                        </div>
+                    </div>
                 </div>
+
+                <div className={`nav__body ${openNav ? 'open-nav' : ''}`}>
+                    <Sidebar
+
+                    />
+                </div>
+
 
             </div>
         )

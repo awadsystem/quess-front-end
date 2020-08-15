@@ -3,6 +3,10 @@
   background-color: #1f3a6e;
 }
 
+.radius-border{
+    border-top-left-radius: 50px;
+}
+
 .bio-inner{
     margin: 0 auto;
     display: block;

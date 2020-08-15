@@ -1,0 +1,44 @@
+{
+    "0": {
+        "time": "منذ ١٥ دقيقة",
+        "name": "مستخدم 1",
+        "image": "https://assetshost.fra1.cdn.digitaloceanspaces.com/user%20%2811%29.svg",
+        "circle": "https://assetshost.fra1.cdn.digitaloceanspaces.com/Ellipse%2088.svg",
+        "active": false
+    },
+    "1": {
+        "time": "منذ ١٢ دقيقة",
+        "name": "مستخدم 2",
+        "image": "https://assetshost.fra1.cdn.digitaloceanspaces.com/user%20%2811%29.svg",
+        "circle": "https://assetshost.fra1.cdn.digitaloceanspaces.com/Ellipse%2088.svg",
+        "active": false
+    },
+    "2": {
+        "time": "منذ ١١ دقيقة",
+        "name": "مستخدم 3",
+        "image": "https://assetshost.fra1.cdn.digitaloceanspaces.com/user%20%2811%29.svg",
+        "circle": "https://assetshost.fra1.cdn.digitaloceanspaces.com/Ellipse%2088.svg",
+        "active": false
+    },
+    "3": {
+        "time": "منذ ١٠ دقيقة",
+        "name": "مالك محمد",
+        "image": "https://assetshost.fra1.cdn.digitaloceanspaces.com/user%20%2811%29%20active.svg",
+        "circle": "https://assetshost.fra1.cdn.digitaloceanspaces.com/Ellipse%2088.svg",
+        "active": true
+    },
+    "5": {
+        "time": "منذ ٨ دقيقة",
+        "name": "مستخدم 4",
+        "image": "https://assetshost.fra1.cdn.digitaloceanspaces.com/user%20%2811%29.svg",
+        "circle": "https://assetshost.fra1.cdn.digitaloceanspaces.com/Ellipse%2088.svg",
+        "active": false
+    },
+    "6": {
+        "time": "منذ ١١ دقيقة",
+        "name": "مستخدم 5",
+        "image": "https://assetshost.fra1.cdn.digitaloceanspaces.com/user%20%2811%29.svg",
+        "circle": "https://assetshost.fra1.cdn.digitaloceanspaces.com/Ellipse%2088.svg",
+        "active": false
+    }
+}

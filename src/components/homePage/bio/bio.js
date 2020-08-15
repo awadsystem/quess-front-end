@@ -1,9 +1,10 @@
 import React from 'react'
 import './bio.css'
 
-const Bio = () => {
+const Bio = ({ openNav }) => {
+
     return (
-        <section id="bio">
+        <section id="bio" className={openNav ? 'radius-border' : ''}>
             <div className="bio-inner">
                 <div className="container-fluid">
                     <div className="row">

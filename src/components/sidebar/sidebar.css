@@ -1,0 +1,111 @@
+.sidebar-inner{
+    padding-right: 40px;
+    padding-top: 30px;
+    position: relative;
+}
+
+.sidebar-inner h3{
+    font-family: "LoewNextArabic-ExtraBold";
+    font-size: 20px;
+    font-weight: 800;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 2.75;
+    letter-spacing: normal;
+    text-align: right;
+    color: #1d428b;
+    position: relative;
+    margin-bottom: 25px;
+}
+
+.sidebar-inner h3::after{
+    content: "";
+    width: 40px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    border-top: 3px solid #a6b5d3;
+}
+
+.user-row-holder{
+    position: relative;
+    width: 100%;
+    margin-top: 0;
+    margin-bottom: 25px;
+    cursor: pointer;
+
+    padding-right: 10px;
+}
+
+.user-row-holder.active-user{
+    background-color: #f5f5f5;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+}
+
+.user-image{
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    width: 35%;
+    display: inline-block;
+    float: right;
+    text-align: center;
+    height: 50px;
+}
+
+.user-image img{
+    position: relative;
+    top: 8px;
+    right: -3%;
+}
+
+.user-row-holder p{
+    font-family: 'LoewNextArabic-Regular';
+    font-size: 11px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.45;
+    letter-spacing: normal;
+    text-align: right;
+    color: #8c9cbe;
+    margin-bottom: 0;
+}
+
+.user-row-holder h4{
+    font-family: 'LoewNextArabic-Bold';
+    font-size: 16px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 2.19;
+    letter-spacing: normal;
+    text-align: right;
+    color: #1c3668;
+    margin-bottom: 0;
+}
+
+.copyright{
+    margin-top: 60px;
+}
+
+.copyright p{
+    font-family: 'LoewNextArabic-Regular';
+    color: #889dc7;
+    font-size: 16px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    letter-spacing: normal;
+    text-align: right;
+    color: #889dc7;
+    margin-bottom: 0;
+}
+
+.copyright img{
+    margin-left: 10px;
+    margin-top: 10px;
+}

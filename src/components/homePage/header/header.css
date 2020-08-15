@@ -112,7 +112,7 @@
 .notification-bell{
     display: inline-block;
     position: relative;
-    top: 5px;
+    top: 10px;
 }
 
 .header-wating-list{
