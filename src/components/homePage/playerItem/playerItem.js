@@ -29,7 +29,7 @@ const StoreItem = props => {
     }
 
     return (
-        <div onClick={() => changeState('active', index)} className="col-md-4 col-xs-12">
+        <div onClick={() => changeState('active', index)} className="col-md-4 col-sm-6">
             <article id="Storecomponent" className="store-item">
                 {parseInt(type) === 0 ? <div className="store-item-image" style={{ backgroundImage: `url(${image})` }}>
                     <div dir="rtl" className="store-item-type-info">

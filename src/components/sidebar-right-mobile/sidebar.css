@@ -1,0 +1,14 @@
+@media all and (max-width: 768px){
+    .sidebar-inner-right{
+        padding-right: 20px;
+        padding-left: 40px;;
+        padding-top: 30px;
+        position: relative;
+    }
+    .sidebar-inner-right .user-row-holder.active-user {
+        border-top-right-radius: 0!important;
+        border-bottom-right-radius: 0!important;
+        border-top-left-radius: 50px;
+        border-bottom-left-radius: 50px;
+    }
+}

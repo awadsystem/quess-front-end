@@ -5,7 +5,7 @@ const StoreItem = props => {
     let { register, price, currency, icon, title, image } = props
 
     return (
-        <div className="col-md-4 col-xs-12">
+        <div className="col-sm-6 col-md-4">
             <article id="Storecomponent" className="store-item">
                 <div className="store-item-image" style={{ backgroundImage: `url(${image})` }}>
                     <div dir="rtl" className="store-item-type-info">

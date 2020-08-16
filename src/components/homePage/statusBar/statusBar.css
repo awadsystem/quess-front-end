@@ -113,3 +113,44 @@
     position: absolute;
     right: 0;
 }
+
+.menu-item{
+    font-family: "LoewNextArabic-Medium";
+  font-size: 12px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 2.42;
+  letter-spacing: normal;
+  text-align: right;
+  color: #8191b2;
+  margin-right: 27px;
+}
+
+#status-bar-item:focus{
+    outline-width: 0!important;
+}
+
+#status-bar-item.active{
+    color: #ffffff;
+    font-family: 'LoewNextArabic-Medium';
+}
+
+:focus{
+    outline-width: 0!important;
+}
+
+@media all and (max-width: 768px){
+    #status-bar{
+        background-color: #153064!important;
+    }
+    .status-bar-inner{
+        padding-left: 15px!important;
+        padding-right: 15px!important;
+    }
+
+    .status-bar-inner{
+        background-image: none!important;
+        background-color: #153064!important;
+    }
+}

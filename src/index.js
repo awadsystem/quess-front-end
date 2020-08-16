@@ -1,7 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 
-import './bootstrap.css'
 import './index.css';
 import './normalize.css'
 import './animation.css'

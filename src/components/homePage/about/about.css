@@ -113,3 +113,46 @@
     border-color: #24417b;
     background-color: #375798;
 }
+
+
+@media all and (max-width: 768px){
+    .about-inner{
+        padding-left: 0!important;
+        padding-right: 0!important;
+        padding-top: 0!important;
+        display: block!important;
+    }
+    .about-inner .video-row,
+    .about-inner .about-row{
+        width: 100%!important;
+        padding-left: 0!important;
+        padding-right: 0!important;
+    }
+    .about-inner .about-row{
+        margin-top: -6px;
+        border-radius: 0!important;
+    }
+    .about-bio-holder{
+        border-radius: 0!important;
+    }
+    .about-bio p{
+        font-size: 15px;
+    }
+    .chip-li{
+        width: 48%;
+        text-align: center;
+        margin-left: 0!important;
+        padding-top: 15px!important;
+        padding-bottom: 15px!important;
+        font-size: 11px!important;
+    }
+    .chip-li:nth-child(odd){
+        margin-right: 2%;
+    }
+    .chip-li:last-child{
+        margin-right: 0;
+    }
+    .about-row h3{
+        font-size: 15px!important;
+    }
+}

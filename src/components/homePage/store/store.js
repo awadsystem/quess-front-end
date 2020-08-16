@@ -98,7 +98,7 @@ class Store extends React.Component {
                     </div>
 
                     <div className="about-row">
-                        <div className="row">
+                        <div className="row mobile-padding">
                             {storeItems}
                         </div>
                     </div>

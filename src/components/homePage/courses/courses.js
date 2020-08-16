@@ -1,5 +1,5 @@
 import React from 'react'
-import './courses.css'
+
 
 // import Components
 import Course from '../course/course'
@@ -11,6 +11,8 @@ import Data from './data.json'
 // import Redux
 import { connect } from 'react-redux'
 import * as actions from '../../../redux/actions/course'
+
+import './courses.css'
 
 class Courses extends React.Component {
 
@@ -74,7 +76,7 @@ class Courses extends React.Component {
                             <div style={{ display: this.props.course.showCourse ? 'block' : 'none' }}>
                                 <SingleCoursePage course={this.props.course.course} />
                             </div>
-                            <div style={{ display: this.props.course.showCourse ? 'none' : 'flex' }} className="row">
+                            <div style={{ display: this.props.course.showCourse ? 'none' : 'flex' }} className="row mobile-padding space-top">
                                 {courses}
                             </div>
                         </div>

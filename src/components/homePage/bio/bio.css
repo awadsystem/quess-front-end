@@ -115,7 +115,33 @@
   letter-spacing: normal;
   text-align: right;
   color: #ffffff;
-  margin-bottom: 0;
   padding: 8px 14px;
   display: inline;
+}
+
+
+@media all and (max-width: 768px){
+    #bio{
+        background-color: #153064!important;
+    }
+    .bio-inner{
+        padding: 30px 15px!important;
+    }
+    #bio .basic-info .name{
+        font-size: 11px!important;
+    }
+    #bio .basic-info .subname{
+        font-size: 15px!important;
+    }
+    #bio .bio-button-status{
+        font-size: 6px!important;
+        padding: 8px 12px!important;
+    }
+    .review-keyword{
+        font-size: 11px!important;
+    }
+    #bio{
+        border-top-right-radius: 15px;
+        border-top-left-radius: 15px;    
+    }
 }

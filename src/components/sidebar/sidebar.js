@@ -24,10 +24,27 @@ const sideBar = () => {
 
     return (
         <div className="sidebar-inner">
-            <h3>  ١٤ قائمة الأنتظار</h3>
-            {users}
 
-            <div className="row-holder">
+            <div className="hide-md">
+                <div className="text-center">
+                    <ul className="mobile-menu-list">
+                        <li className="active-li">الرئيسية</li>
+                        <li>نبذه عنا</li>
+                        <li>الخبراء</li>
+                        <li>سؤال وجواب</li>
+                        <li>اختبارات كورونا</li>
+                        <li>أتصل بنا</li>
+                        <li className="bolded-li">أنضم كخبير</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div className="hide-xs">
+                <h3>  ١٤ قائمة الأنتظار</h3>
+                {users}
+            </div>
+
+            <div className="row-holder hide-xs">
                 <div className="text-right copyright">
                     <p>جميع الحقوق محفوظة</p>
                     <p>تايم فيوير © ٢٠١٣ - ٢٠٢٠</p>

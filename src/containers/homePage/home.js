@@ -13,6 +13,9 @@ import BroadCast from '../../components/homePage/broadcast/broadcast'
 import Courses from '../../components/homePage/courses/courses'
 import Sidebar from '../../components/sidebar/sidebar'
 
+// import Mobile Right SideMenu
+import MobileSideMenu from '../../components/sidebar-right-mobile/sidebar'
+
 // redux import
 import { connect } from 'react-redux'
 import * as actions from '../../redux/actions/course'
@@ -23,7 +26,8 @@ class HomePage extends React.Component {
         super(props)
         this.state = {
             active: 0,
-            openNav: false
+            openNav: false,
+            openRightNav: false
         }
 
         // bind functions
@@ -66,8 +70,9 @@ class HomePage extends React.Component {
     render() {
 
         let activeComponent
-        let { active, openNav } = this.state
-        switch (active) {
+        let { active, openNav, openRightNav } = this.state
+
+        switch (parseInt(active)) {
             case 0:
                 activeComponent = <div className="fade-in"><About /></div>
                 break;
@@ -87,16 +92,18 @@ class HomePage extends React.Component {
 
 
 
-                <div className={`wrapper ${openNav ? 'open-nav' : ''}`}>
+                <div className={`wrapper ${openRightNav ? 'open-right-nav' : ''} ${openNav ? 'open-nav' : ''}`}>
+
                     <Header
                         openNav={openNav}
                         changeState={this.changeState}
+                        openRightNav={openRightNav}
                     />
 
-                    <div className={`${openNav ? 'shadow-radius' : ''} main-components-holder`}>
+                    <div className={`${openRightNav ? 'shadow-radius-right' : ''} ${openNav ? 'shadow-radius' : ''} main-components-holder`}>
                         <Bio openNav={openNav} />
                         <StatusBar
-                            active={this.state.active}
+                            active={active}
                             changeState={this.changeState}
                             setCourse={this.props.setCourse}
                             course={this.props.course}
@@ -107,15 +114,24 @@ class HomePage extends React.Component {
                                 {activeComponent}
                             </div>
                         </div>
+
+                        <div className="hide-md">
+                            <button className="floating-button">حجز عيادة (20 دينار كويتي)</button>
+                        </div>
+
                     </div>
                 </div>
 
-                <div className={`nav__body ${openNav ? 'open-nav' : ''}`}>
-                    <Sidebar
+                <div className={`nav__right ${openRightNav ? 'open-nav-right' : ''}`}>
+                    <MobileSideMenu
 
                     />
                 </div>
 
+                <div className={`nav__body ${openNav ? 'open-nav' : ''}`}>
+                    <Sidebar
+                    />
+                </div>
 
             </div>
         )

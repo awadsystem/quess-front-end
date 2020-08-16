@@ -1,0 +1,49 @@
+.sub-header{
+    padding: 25px 15px;
+    position: relative;
+    width: 100%;
+}
+
+.sub-header-image{
+    width: 100%;
+}
+
+.notification-bell-sub-header{
+
+}
+
+.notification-bell-point{
+    position: absolute;
+    top: -2px;
+    right: -5px;
+}
+
+.profile-icon--sub{
+    display: inline-block;
+    background-image: url(https://assetshost.fra1.cdn.digitaloceanspaces.com/Ellipse%201.svg);
+    width: 55px;
+    height: 45px;
+    background-size: cover;
+    background-position: center;
+    margin: 0 auto;
+    text-align: center;
+    position: relative;
+    top: -10px;
+    margin-right: 15px;
+}
+
+.profile-icon--sub img{
+    width: 27px;
+    height: 27px;
+    top: 9px;
+    position: relative;
+}
+
+.bill-holder{
+    display: inline-block;
+}
+
+.sub-header-icons{
+    position: relative;
+    top: 10px;
+}

@@ -10,6 +10,7 @@ html{
   width: 100%;
     min-height: 850px;
     overflow-x: hidden;
+    position: relative;
 }
 
 .home-page-inner{
@@ -30,4 +31,29 @@ html{
   position: relative;
   z-index: 999999999;
   border: none;
+}
+
+.shadow-radius-right{
+  opacity: 0.97;
+  box-shadow: 32px 60px 33px 0 rgba(29, 66, 139, 0.51);
+  position: relative;
+  z-index: 999999999;
+  border: none;
+}
+
+@media all and (min-width: 768px){
+  
+  .hide-md{
+    display: none!important;
+  }
+}
+
+@media all and (max-width: 768px){
+  .hide-xs{
+    display: none!important;
+  }
+
+  .col-sm-6{
+    width: 50%;
+  }
 }

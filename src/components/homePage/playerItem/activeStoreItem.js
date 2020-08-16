@@ -41,7 +41,7 @@ const ActiveStoreItem = props => {
             <div className="active-bottom-div">
                 <div className="row">
 
-                    <div className="col-xs-12 col-md-6">
+                    <div className="col-sm-12 col-md-6 hide-xs">
                         <div className="text-left">
                             <div dir="rtl" className="registration-section">
                                 <img src="https://assetshost.fra1.cdn.digitaloceanspaces.com/enter.svg" /> <span className="register-number">{register}</span>
@@ -49,7 +49,7 @@ const ActiveStoreItem = props => {
                         </div>
                     </div>
 
-                    <div className="col-xs-12 col-md-6">
+                    <div className="col-sm-12 col-md-6">
                         <div className="text-right right-active-section">
                             {typeOfItem}
                             <img src={icon} className="store-item-icon" />
@@ -58,8 +58,17 @@ const ActiveStoreItem = props => {
                         </div>
                     </div>
 
+                    <div className="col-sm-12 col-md-6 hide-md">
+                        <div className="text-left">
+                            <div dir="rtl" className="registration-section">
+                                <img src="https://assetshost.fra1.cdn.digitaloceanspaces.com/enter.svg" /> <span className="register-number">{register}</span>
+                            </div>
+                        </div>
+                    </div>
+
                 </div>
             </div>
+
         </div>
     )
 

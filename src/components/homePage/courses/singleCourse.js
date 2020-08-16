@@ -49,6 +49,10 @@ const singleCourse = props => {
         <section className="single-course-section">
             <div className="row">
 
+                <div className="about-course hide-md">
+                    <h3>وصف الكورس</h3>
+                    <p>{course.description}</p>
+                </div>
 
                 <div className="video-row">
                     <VideoPlayer
@@ -59,24 +63,26 @@ const singleCourse = props => {
                 </div>
 
                 <div className="about-row">
-                    <div className="about-course">
+
+                    <div className="about-course hide-xs">
                         <h3>وصف الكورس</h3>
                         <p>{course.description}</p>
                     </div>
 
-                    <div className="row">
-                        {coursesItems}
-                    </div>
+                    <div className="mobile-padding">
+                        <div className="row">
+                            {coursesItems}
+                        </div>
 
+                        <div className="sub-course-holder">
+                            <h3>صناعة محتوي تسويقي فعال </h3>
+                            <div className="row">{subCourse}</div>
+                        </div>
 
-                    <div className="sub-course-holder">
-                        <h3>صناعة محتوي تسويقي فعال </h3>
-                        <div className="row">{subCourse}</div>
-                    </div>
-
-                    <div className="sub-course-holder">
-                        <h3>صناعة محتوي تسويقي فعال </h3>
-                        <div className="row">{subCourse}</div>
+                        <div className="sub-course-holder">
+                            <h3>صناعة محتوي تسويقي فعال </h3>
+                            <div className="row">{subCourse}</div>
+                        </div>
                     </div>
 
                 </div>

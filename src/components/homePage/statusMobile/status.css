@@ -1,0 +1,127 @@
+.status-mobile{
+    object-fit: contain;
+    background-image: linear-gradient(65deg, #254176
+    6%, #1c3668 97%);
+    width: 100%;
+    position: relative;
+    padding: 30px 15px;
+    display: flex;
+}
+
+/*.active-icon .icon-image{
+    position: absolute;
+    top: 10px;
+}*/
+
+.not-active{
+    display: block;
+    text-align: center;
+    margin: 0 auto;
+}
+
+@media all and (max-width: 768px){
+    .icon-text-mobile{
+        font-size: 12px!important;
+    }
+    .icon-title-mobile{
+        font-size: 10px!important;
+    }
+    .icon-holder-div{
+        display: inline-block;
+        margin-right: 0!important;
+        text-align: center;
+        position: relative;
+    }
+    .icon-image-circle{
+        height: 40px!important;
+        width: 40px!important;
+    }
+    .icon-image-circle img{
+        position: relative!important;
+        top: 10%!important;
+        width: 15px;
+        height: 15px;
+    }
+    .active-icon .icon-image-circle{
+        position: relative;
+        top: 0%;
+    }
+    /*.icon-image-circle{
+        width: 40px!important;
+        height: 40px!important;
+    }
+    .icon-image-circle img {
+        position: relative!important;
+        top: 10%!important;
+        height: 15px!important;
+        width: 15px!important;
+    }*/
+}
+
+.icon-holder-mobile{
+    margin-right: 20px;
+    position: relative;
+}
+
+.icon-image-mobile{
+
+}
+
+.icon-image-circle-mobile{
+    width: 60px;
+    height: 60px;
+    background-size: cover;
+    background-position: center;
+    display: inline-block;
+}
+
+.icon-image-circle-mobile img{
+    width: 30px;
+    position: relative;
+    height: 30px;
+    top: 20%;
+}
+
+.icon-title-holder{
+    display: inline-block;
+    position: relative;
+    top: 12px;
+}
+
+.icon-title-holder h4{
+    font-family: "LoewNextArabic-Bold";
+    font-size: 10px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    letter-spacing: normal;
+    text-align: right;
+    color: #ffffff;
+    margin-bottom: 0;
+}
+
+.icon-title-holder p{
+    font-family: "LoewNextArabic-Medium";
+  font-size: 12px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  letter-spacing: normal;
+  text-align: right;
+  color: #a7b5d2;
+}
+
+.active-image-circle{
+    position: relative;
+    top: -6px;
+}
+
+.status-direction{
+    width: 100%;
+    text-align: center;
+}
+
+.active-icon{
+    position: relative;
+    top: 7px;
+}
